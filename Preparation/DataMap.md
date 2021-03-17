@@ -1,17 +1,17 @@
 # Návrh datové mapy
 
-Formát: název – datový typ – příklad hodnoty
-Položky světle šedé nemusíte implementovat na začátku vývoje.
+Formát: název – datový typ – příklad hodnoty\
+Položky světle šedé nemusíte implementovat na začátku vývoje.\
 
 ## 1) Skupinka:
 
-Zkratka – string - SWI
-Ročník – int – 4
-Semestr – enum – LS
-Počet studentů – int – 36
-Forma studia – enum – P
-Typ studia – enum – Bc.
-Jazyk – enum – cz
+Zkratka – string - SWI\
+Ročník – int – 4\
+Semestr – enum – LS\
+Počet studentů – int – 36\
+Forma studia – enum – P\
+Typ studia – enum – Bc.\
+Jazyk – enum – cz\
 
 
 Doplňující info, zatím bez přímého vlivu na aplikaci:
