@@ -38,7 +38,7 @@ Počet kreditů – int - 5\
 Garantující ústav – enum – UIUI\
 Jméno garanta – string – Pavel Vařacha \
 
-## 3) Zaměstnanec \
+## 3) Zaměstnanec
 
 Jméno – string – Pavel\
 Příjmení – string - Vařacha\
@@ -51,7 +51,7 @@ Doktorand – bool - false\
 Úvazek – double – 0 až 1 (0 zaměstnanec na dohodu, nebo doktorand, jinak procento)\
 Seznam štítků – List<Pracovní štítek> - množina referencí na 4)\
 
-Doplňující info, zatím bez přímého vlivu na aplikaci:\
+Doplňující info, zatím bez přímého vlivu na aplikaci:
 
 Pracovní telefon – string - +420 576 035 186\
 Soukromý telefon – string – 777567135\
