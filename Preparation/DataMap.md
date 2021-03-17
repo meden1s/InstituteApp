@@ -11,13 +11,13 @@ Semestr – enum – LS\
 Počet studentů – int – 36\
 Forma studia – enum – P\
 Typ studia – enum – Bc.\
-Jazyk – enum – cz\
+Jazyk – enum – cz
 
 
-Doplňující info, zatím bez přímého vlivu na aplikaci:\
+Doplňující info, zatím bez přímého vlivu na aplikaci:
 
 Název – string – Softwareové inženýrství\
-Seznam předmětů – List<Předmět> - množina referencí na 2)\
+Seznam předmětů – List<Předmět> - množina referencí na 2)
 
 ## 2) Předmět
 
