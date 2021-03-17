@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InstituteModel
 {
-    public class Skupinka
+    public class Skupina
     {
 
         public string Zkratka { get; set; }
@@ -15,14 +15,13 @@ namespace InstituteModel
 
         public int Rocnik { get; set; }
 
-        public enum Semestr { get; set; }
+        public Semestr Semestr { get; set; } = new Semestr();
 
-        public enum PocetStudentu { get; set; }
+        public int PocetStudentu { get; set; }
 
-        public enum TypStudium { get; set; }
+        public StudiumTyp StudiumTyp { get; set; } = new StudiumTyp();
 
-        public enum Jazyk { get; set; }
-
+        public Jazyk Jazyk { get; set; } = new Jazyk();
 
     }
 }

@@ -17,21 +17,21 @@ namespace InstituteModel
 
         public int HodinySeminaru { get; set; }
 
-        public enum ZpusobZakonceni { get; set; }
+        public ZakonceniTyp ZakonceniTyp { get; set; } = new ZakonceniTyp();
 
-        public enum Jazyk { get; set; }
+        public Jazyk Jazyk { get; set; } = new Jazyk();
 
         public int VelikostTridy { get; set; }
 
-        public List<Skupinka> SeznamSkupin { get; set; } = new List<Skupinka>();
+        public List<Skupina> SeznamSkupin { get; set; } = new List<Skupina>();
 
         public string NazevPredmetu { get; set; }
 
         public int PocetKreditu { get; set; }
 
-        public enum GarantUstav { get; set; }
+        public Ustav GarantUstav { get; set; } = new Ustav();
 
-        public string GarantJmeno { get; set; }
+        public Zamestnanec GarantJmeno { get; set; } = new Zamestnanec();
 
     }
 }

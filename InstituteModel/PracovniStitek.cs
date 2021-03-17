@@ -13,7 +13,7 @@ namespace InstituteModel
 
         public Predmet Predmet { get; set; }
 
-        public enum Typ { get; set; }
+        public PracovniStitekTyp Typ { get; set; } = new PracovniStitekTyp();
 
         public int PocetStudentu { get; set; }
 
@@ -21,9 +21,9 @@ namespace InstituteModel
 
         public int PocetTydnu { get; set; }
 
-        public enum Jazyk { get; set; }
+        public Jazyk Jazyk { get; set; } = new Jazyk();
 
-        public int PocetBoduZaPracovniStitek { get; set; }
+        //public int PocetBoduZaPracovniStitek { get; set; }
 
     }
 }

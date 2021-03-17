@@ -10,7 +10,13 @@ namespace InstituteModel
 
         public string Prijmeni { get; set; }
 
-        public string CeleJmeno { get; set; }
+        public string CeleJmeno
+        {
+            get
+            {
+                return $"{Jmeno} {Prijmeni}";
+            }
+        }
 
         public string EmailPracovni { get; set; }
 
@@ -24,7 +30,7 @@ namespace InstituteModel
 
         public double Uvazek { get; set; }
 
-        public List<PracovniStitek> SeznamStitku { get; set; }
+        public List<PracovniStitek> SeznamStitku { get; set; } = new List<PracovniStitek>();
 
         // Pracovní body bez angličtiny – int – 526 (Toto nebude vlastnost, ale metoda.)
         // Pracovní body – int – 767 (Toto nebude vlastnost, ale metoda.)
